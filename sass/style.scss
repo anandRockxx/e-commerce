@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// variables
+$primary-color: #2c3e50;
+$secondary-color: #e67e22;
+
+
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+// ********************************
+//         NAVIGATION
+// ********************************
+.navbar{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  .navbar-brand{
+    color: $secondary-color;
+    font-weight: 600;
+  }
+  .navbar-nav{
+    margin-left: 40px;
+  }
+  .nav-link{
+    text-transform: capitalize;
+    color: $primary-color;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+  }
+  .navbar-toggler:focus, .navbar-toggler:hover{
+    outline: none;
+  }
+  .navbar-toggler-icon{
+     .fa{
+       padding-top: 5px;
+     }
+  }
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  top: 136%;
+  border: none;
+  box-shadow: 0px 5px 5px #ccc;
+
+  .dropdown-item{
+    text-transform: capitalize;
+  }
+}
+#search{
+  .form-control:focus{
+    border-color: #ccc;
+  }
+  input{
+      &:focus{
+        box-shadow: none;
+      }
+  }
+}
+#users{
+  ul{
+   float: left;
+    li{
+      display: inline-block;
+      list-style-type: none;
+      i{
+        font-size: 20px;
+        margin: 15px 15px 0px 22px;
+      }
+    }
+  }
+}

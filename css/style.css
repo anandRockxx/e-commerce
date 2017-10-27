@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc; }
+  .navbar .navbar-brand {
+    color: #e67e22;
+    font-weight: 600; }
+  .navbar .navbar-nav {
+    margin-left: 40px; }
+  .navbar .nav-link {
+    text-transform: capitalize;
+    color: #2c3e50;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 0.3px; }
+  .navbar .navbar-toggler:focus, .navbar .navbar-toggler:hover {
+    outline: none; }
+  .navbar .navbar-toggler-icon .fa {
+    padding-top: 5px; }
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  top: 136%;
+  border: none;
+  box-shadow: 0px 5px 5px #ccc; }
+  .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    text-transform: capitalize; }
+
+#search .form-control:focus {
+  border-color: #ccc; }
+#search input:focus {
+  box-shadow: none; }
+
+#users ul {
+  float: left; }
+  #users ul li {
+    display: inline-block;
+    list-style-type: none; }
+    #users ul li i {
+      font-size: 20px;
+      margin: 15px 15px 0px 22px; }
+
+/*# sourceMappingURL=style.css.map */
